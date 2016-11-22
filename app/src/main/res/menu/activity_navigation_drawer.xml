@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_downloadData"
+            android:icon="@drawable/ic_file_download_black_21dp"
+            android:title="Download Database" />
+        <item
+            android:id="@+id/nav_clickImage"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Click Image" />
+        <item
+            android:id="@+id/nav_syncAttendence"
+            android:icon="@drawable/ic_loop_black_21dp"
+            android:title="Sync Attendence" />
+        <item
+            android:id="@+id/nav_viewAttendence"
+            android:icon="@drawable/ic_visibility_black_21dp"
+            android:title="View Attendence" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Logout" />
+    </group>
+
+    <!--<item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>-->
+
+</menu>
